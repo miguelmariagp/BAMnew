@@ -15,4 +15,6 @@ document(current.code)
 
 #You can check the 'old' version of the package here:
 library(BaM)
-?biv.norm.post
+?dmultinorm
+
+?expo.gib
