@@ -2,6 +2,9 @@
 #'
 #' Modeling code for the example of ancient Chinese wars. See page 125-127
 #' 
+#' @author Jeff Gill
+#' @import mice
+#' @import nnet
 #' @export
 
 
@@ -12,8 +15,6 @@
 # Henry A. Murray Research Archive
 # Center for International Relations, Department of Political Science, University of Colorado, Boulder, USA
 # Download from http://dvn.iq.harvard.edu/dvn/dv/mra/faces/study/StudyPage.jsp?studyId=110&studyListingIndex=0_9aa809933d3c24eb76216fa477f8
-
-library(nnet); library(mice)
 
 
 #wars <- load("DA_cwp.rda")
