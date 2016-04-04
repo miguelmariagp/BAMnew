@@ -7,21 +7,21 @@
 sir(data.mat,theta.vector,theta.mat,M,m,tol=1e-06,ll.func,df=0)
 }
 \arguments{
-\item{A}{matrix with two columns of normally distributed data}
+\item{data.mat}{A matrix with two columns of normally distributed data}
 
-\item{The}{initial coefficient estimates}
+\item{theta.vector}{The initial coefficient estimates}
 
-\item{The}{initial vc matrix}
+\item{theta.mat}{The initial vc matrix}
 
-\item{The}{number of draws}
+\item{M}{The number of draws}
 
-\item{The}{desired number of accepted values}
+\item{m}{The desired number of accepted values}
 
-\item{The}{rounding/truncing tolerance}
+\item{tol}{The rounding/truncing tolerance}
 
-\item{loglike}{function for empirical posterior}
+\item{ll.func}{loglike function for empirical posterior}
 
-\item{The}{df for using the t distribution as the approx distribution}
+\item{df}{The df for using the t distribution as the approx distribution}
 }
 \description{
 Implementation of Rubin's SIR

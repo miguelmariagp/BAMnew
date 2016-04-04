@@ -4,14 +4,14 @@
 #' 
 #' @usage sir(data.mat,theta.vector,theta.mat,M,m,tol=1e-06,ll.func,df=0)
 #' 
-#' @param A matrix with two columns of normally distributed data
-#' @param The initial coefficient estimates
-#' @param The initial vc matrix
-#' @param The number of draws
-#' @param The desired number of accepted values
-#' @param The rounding/truncing tolerance
-#' @param loglike function for empirical posterior
-#' @param The df for using the t distribution as the approx distribution
+#' @param data.mat  A matrix with two columns of normally distributed data
+#' @param theta.vector The initial coefficient estimates
+#' @param theta.mat  The initial vc matrix
+#' @param M The number of draws
+#' @param m The desired number of accepted values
+#' @param tol The rounding/truncing tolerance
+#' @param ll.func loglike function for empirical posterior
+#' @param df The df for using the t distribution as the approx distribution
 #'
 #' @author Jeff Gill
 #' @examples
