@@ -1,6 +1,6 @@
 #' Actuarial
 #'
-#' 
+#' actuarial data
 #'
 #' The variables included in the dataset are:
 #' \itemize{
