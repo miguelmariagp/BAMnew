@@ -18,9 +18,6 @@ dmultinorm(xval,yval,mu.vector,sigma.matrix)
 \description{
 dmultinorm function, see page 393.
 }
-\examples{
-
-}
 \author{
 Jeff Gill
 }
