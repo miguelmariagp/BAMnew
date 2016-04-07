@@ -17,6 +17,6 @@
 #' \item\code{new} The number of voters registered to vote after June 30, 2000 in a given precinct
 #'} 
 #' @usage data(pbc.vote)
-#' @name 2000 Presidential Election Voting Data by Precinct in Palm Beach County, Florida
+#' @name Presidential Election Voting Data by Precinct in Palm Beach County
 #' @docType data
 NULL
