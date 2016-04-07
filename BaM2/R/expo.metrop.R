@@ -13,7 +13,6 @@
 #' @param B upper bound
 #'
 #' @author Jeff Gill
-#' @examples
 #'
 #' @export
 biv.exp <- function(x,y,L1,L2,L) exp( -(L1+L)*x - (L2+L)*y -L*max(x,y) )

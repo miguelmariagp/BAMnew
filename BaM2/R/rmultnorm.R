@@ -10,7 +10,6 @@
 #' @param tol XXX
 #' 
 #' @author Jeff Gill
-#' @examples
 #'
 #' @seealso \code{\link{biv.norm.post}}
 #' @export

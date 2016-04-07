@@ -11,7 +11,6 @@
 #' @param prior.var 	variance of specified prior distribution for mu
 #'
 #' @author Jeff Gill
-#' @examples
 #'
 #' @export
 n.post1 <- function(data.vec,pop.var,prior.mean,prior.var)  {

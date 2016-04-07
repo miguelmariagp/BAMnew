@@ -9,7 +9,6 @@
 #' @param I.mat I.mat
 #'
 #' @author Jeff Gill
-#' @examples
 #'
 #' @export
 metropolis <- function(theta.matrix,reps,I.mat)  {

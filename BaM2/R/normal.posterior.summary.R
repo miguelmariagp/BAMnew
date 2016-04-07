@@ -12,7 +12,6 @@
 #'              rho             posterior covariance
 #'
 #' @author Jeff Gill
-#' @examples
 #'
 #' @seealso \code{\link{biv.norm.post}}
 #' @export
