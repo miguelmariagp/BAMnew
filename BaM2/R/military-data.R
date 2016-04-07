@@ -1,0 +1,22 @@
+#' military
+#'
+#' @description A dataset of two variables. Military spending by country by year. See pages 79-86
+#'
+#' The variables included in the dataset are:
+#' \itemize{
+#' \item\code{Year} The year selected to evaluate
+#' \item\code{Yugoslavia} Yugoslavia's military spending per year
+#' \item\code{Albania} Albania's military spending per year
+#' \item\code{Bulgaria} Bulgaria's military spending per year
+#' \item\code{Czechoslovakia} Czechoslovakia's military spending per year
+#' \item\code{German.Dem.Republic} The German Democratic Republic's military spending per year
+#' \item\code{Hungary} Hungary's military spending per year
+#' \item\code{Poland} Poland's military spending per year
+#' \item\code{Rumania} Romania's military spending per year
+#' \item\code{USSR} Soviet Union's military spending per year
+#'  
+#'} 
+#' @usage data(military)
+#' @name military
+#' @docType data
+NULL
