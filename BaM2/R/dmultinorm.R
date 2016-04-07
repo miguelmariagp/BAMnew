@@ -10,8 +10,6 @@
 #' @param sigma.matrix Matrix of Standard Deviations
 #'
 #' @author Jeff Gill
-#' @examples
-#'
 #' @export
 dmultinorm <- function(xval,yval,mu.vector,sigma.matrix)  {
   normalizer <- (2*pi*sigma.matrix[1,1]*sigma.matrix[2,2]

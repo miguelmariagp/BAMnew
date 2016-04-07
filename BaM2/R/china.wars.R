@@ -12,10 +12,11 @@
 #' @import mice
 #' @import nnet
 #' @export
-
+china.wars<-function(){
 #wars <- load("DA_cwp.rda")
-wars <- read.table("data/DA_cwp.tab",header=TRUE)
-wars <- cbind(as.matrix(wars[,4:15]))
+data(DA_cwp)
+#wars <- read.table("data/DA_cwp.tab",header=TRUE)
+wars <- cbind(as.matrix(DA_cwp[,4:15]))
 imp.wars <- mice(wars,m=5)
 complete.wars <- array(c(as.matrix(complete(imp.wars,1)), as.matrix(complete(imp.wars,2)), as.matrix(complete(imp.wars,2)),
                        as.matrix(complete(imp.wars,4)), as.matrix(complete(imp.wars,5))),dim=c(104,12,5))
@@ -29,17 +30,18 @@ wars <- data.frame(wars)
 
 wars.lm <- lm(SCOPE ~ -1 + EXTENT + DIVERSE + ALLIANCE + DYADS + TEMPOR + DURATION, data=wars)
 summary(wars.lm)
+}
 
-data(wars)
-X <- cbind(as.numeric(wars$.EXTENT, wars$.DIVERSE,wars$.ALLIANCE,wars$.DYADS,wars$.TEMPOR,wars$.DURATION))
-y <- as.numeric(wars$.SCOPE) 
-n <- nrow(X); 
-k <- ncol(X)
-nu <- 5
-num.sims <- 100000
+#data(wars)
+#X <- cbind(as.numeric(wars$.EXTENT, wars$.DIVERSE,wars$.ALLIANCE,wars$.DYADS,wars$.TEMPOR,wars$.DURATION))
+#y <- as.numeric(wars$.SCOPE) 
+#n <- nrow(X); 
+#k <- ncol(X)
+#nu <- 5
+#num.sims <- 100000
 
-war.samples <- matrix(NA,nrow=num.sims,(ncol=k+n+1))
-beta <- rep(1,ncol(X)); sigma.sq <- 3; Omega <- 3*diag(n)
+#war.samples <- matrix(NA,nrow=num.sims,(ncol=k+n+1))
+#beta <- rep(1,ncol(X)); sigma.sq <- 3; Omega <- 3*diag(n)
 
 #for (i in 1:num.sims)  {
 #    b <- solve(t(X) %*% X) %*% t(X) %*% y

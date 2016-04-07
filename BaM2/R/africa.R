@@ -16,6 +16,8 @@
 #' \item\code{NUMELEC}
 #'} 
 #'
+#' @usage data(africa)
+#' @source Bratton, M. and Van De Walle, N. (1994).	Neopatrimonial Regimes and Political Transitions in Africa.	World Politics 46, 453-489.
 #' @name africa
 #' @docType data
 NULL

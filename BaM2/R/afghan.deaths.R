@@ -9,6 +9,7 @@
 #' \item\code{x4} 
 #'}
 #'
+#' @usage data(afghan.deaths)
 #' @name afghan.deaths
 #' @docType data
 NULL

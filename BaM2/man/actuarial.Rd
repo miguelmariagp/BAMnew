@@ -4,6 +4,9 @@
 \name{actuarial}
 \alias{actuarial}
 \title{Actuarial}
+\description{
+actuarial data
+}
 \details{
 The variables included in the dataset are:
 \itemize{
