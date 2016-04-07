@@ -9,7 +9,6 @@
 #' @param m number of iterations
 #'
 #' @author Jeff Gill
-#' @examples
 #'
 #' @export
 expo.gibbs <- function(B=5, k=15, m=5000)  {
