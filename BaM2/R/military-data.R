@@ -1,6 +1,6 @@
 #' military
 #'
-#' @description A dataset of two variables. Military spending by country by year. See pages 79-86
+#' @description A dataset of two variables. The proportional changes in military personnel for the named countries. See pages 79-86
 #'
 #' The variables included in the dataset are:
 #' \itemize{
