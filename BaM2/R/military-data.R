@@ -5,15 +5,15 @@
 #' The variables included in the dataset are:
 #' \itemize{
 #' \item\code{Year} The year selected to evaluate
-#' \item\code{Yugoslavia} Yugoslavia's military spending per year
-#' \item\code{Albania} Albania's military spending per year
-#' \item\code{Bulgaria} Bulgaria's military spending per year
-#' \item\code{Czechoslovakia} Czechoslovakia's military spending per year
-#' \item\code{German.Dem.Republic} The German Democratic Republic's military spending per year
-#' \item\code{Hungary} Hungary's military spending per year
-#' \item\code{Poland} Poland's military spending per year
-#' \item\code{Rumania} Romania's military spending per year
-#' \item\code{USSR} Soviet Union's military spending per year
+#' \item\code{Yugoslavia} The proportion change in the size of Yugoslavia's military 
+#' \item\code{Albania} The proportion change in the size of Albania's military 
+#' \item\code{Bulgaria} The proportion change in the size of Bulgaria's military 
+#' \item\code{Czechoslovakia} The proportion change in the size of Czechoslovakia's military 
+#' \item\code{German.Dem.Republic} The proportion change in the size of the German Democratic Republic's military
+#' \item\code{Hungary} The proportion change in the size of Hungary's military 
+#' \item\code{Poland} The proportion change in the size of Poland's military 
+#' \item\code{Rumania} The proportion change in the size of Romania's military 
+#' \item\code{USSR} The proportion change in the size of the Soviet Union's military 
 #'  
 #'} 
 #' @usage data(military)
