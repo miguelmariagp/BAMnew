@@ -4,10 +4,10 @@
 #'
 #' The variables included in the dataset are:
 #' \itemize{
-#' \item\code{Year} The year the strikes occurred
-#' \item\code{Counts} The number of strikes that occurred per year
+#' \item\code{Year} The year the labor strikes in France occurred
+#' \item\code{Counts} The number of labor strikes that occurred in France per year
 #'} 
 #' @usage data(strikes)
-#' @name Strikes
+#' @name French Labor Strikes
 #' @docType data
 NULL
