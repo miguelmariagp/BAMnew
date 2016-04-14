@@ -10,6 +10,6 @@
 #'  
 #'} 
 #' @usage nc.sub.dat
-#' @name North Carolina Health Statistics by County
+#' @name nc.sub.dat
 #' @docType data
 NULL
