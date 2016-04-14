@@ -18,7 +18,7 @@ load_all(current.code)
 document(current.code)
 
 #You can check the 'old' version of the package here:
-library(BaM)
+library(BaM2)
 ?dmultinorm
 ?actuarial
 ?expo.gib
