@@ -6,9 +6,11 @@ Description: What the package does (one paragraph).
 Depends:  
     R (>= 3.0.2),
     nnet,
-    mice
+    mice,
+    MASS
 License: What license is it under?
 LazyData: true
 RoxygenNote: 5.0.1
 Imports: nnet,
-    mice
+    mice,
+    MASS
