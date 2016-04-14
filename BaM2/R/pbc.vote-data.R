@@ -17,6 +17,6 @@
 #' \item\code{new} The number of voters registered to vote after June 30, 2000 in a given precinct
 #'} 
 #' @usage data(pbc.vote)
-#' @rdname pbc.vote
+#' @name pbc.vote
 #' @docType data
 NULL
