@@ -1,4 +1,4 @@
-#' walk.G
+#' plot.walk.G
 #'
 #' Plot.walk.g code used to produce figure 10.4
 #' 
@@ -16,11 +16,7 @@
 # Description: 	Plot.walk.g code used to produce figure 10.4
 # Usage:	plot.walk.G(walk.mat,sim.rm,X=1,Y=2)
 
-
-
-walk <- function(walk.mat,sim.rm,X=1,Y=2)
-UseMethod("plot")
-walk.G <- function(walk.mat,sim.rm,X=1,Y=2)
+plot.walk.G <- function(walk.mat,sim.rm,X=1,Y=2)
 {
     plot(walk.mat[1,X],walk.mat[1,Y],type="n",
         xlim=range(walk.mat[,X]),
