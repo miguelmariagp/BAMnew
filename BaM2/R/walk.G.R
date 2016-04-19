@@ -1,6 +1,6 @@
 #' walk.G
 #'
-#' Plot.walk.g code used to produce figure 9.2
+#' Plot.walk.g code used to produce figure 10.4
 #' 
 #' @usage ## S3 method for class 'G'  
 #'    plot.walk.G(walk.mat,sim.rm,X=1,Y=2)
@@ -13,7 +13,7 @@
 #' @author Jeff Gill
 #' @export
 
-# Description: 	Plot.walk.g code used to produce figure 9.2
+# Description: 	Plot.walk.g code used to produce figure 10.4
 # Usage:	plot.walk.G(walk.mat,sim.rm,X=1,Y=2)
 
 
