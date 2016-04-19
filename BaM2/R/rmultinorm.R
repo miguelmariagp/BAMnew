@@ -1,8 +1,8 @@
-#' rmultnorm
+#' rmultinorm
 #'
 #' a function to generate random multivariate Gaussians.
 #' 
-#' @usage rmultnorm(n, mu, vmat, tol = 1e-07)
+#' @usage rmultinorm(n, mu, vmat, tol = 1e-07)
 #' 
 #' @param n XXX
 #' @param mu XXX
@@ -13,7 +13,7 @@
 #'
 #' @seealso \code{\link{biv.norm.post}}
 #' @export
-rmultnorm <- function(n, mu, vmat, tol = 1e-07)
+rmultinorm <- function(n, mu, vmat, tol = 1e-07)
 {
   p <- ncol(vmat)
   if(length(mu)!=p)

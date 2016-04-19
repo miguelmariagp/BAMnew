@@ -1,6 +1,6 @@
-#' bcp
+#' biv.norm.post
 #'
-#' A function to calculate posterior quantities of the bivariate normal.  See pages 79-86.
+#' A function to calculate posterior quantities of the bivariate normal.  See page 94.
 #' 
 #' @usage biv.norm.post(data.mat,alpha,beta,m,n0=5)
 #' 
@@ -10,7 +10,7 @@
 #' @param m prior mean for mu
 #' @param n0 prior confidence parameter
 #'
-#' @return Something
+#' @return Returns
 #'  \item{mu2}{posterior mean, dimension 1}
 #'  \item{sig1}{posterior mean, dimension 2}
 #'  \item{sig2}{posterior variance, dimension 1}
@@ -20,12 +20,6 @@
 #' 
 #' ## Not run: 	    
 #' {
-#'   data.n10 <- rmultinorm(10, c(1,3), matrix(c(1.0,0.7,0.7,3.0),2,2))
-#'   rep.mat <- NULL; reps <- 1000
-#'   for (i in 1:reps)
-#'     rep.mat <- rbind(rep.mat, biv.norm.post(data.n10,3, matrix(c(10,5,5,10),2,2),c(2,2)))
-#'   round(normal.posterior.summary(rep.mat),3)
-#'   
 #'  rwishart <- function(df, p = nrow(SqrtSigma), SqrtSigma = diag(p))  { 
 #'  if((Ident <- missing(SqrtSigma)) && missing(p)) stop("either p or SqrtSigma must be specified") 
 #'  Z <- matrix(0, p, p) 
@@ -35,13 +29,16 @@
 #'    Z[rep(p*pseq, pseq) + unlist(lapply(pseq, seq))] <- rnorm(p*(p-1)/2) 
 #'  } 
 #'  if(Ident) crossprod(Z) 
-#'  else crossprod(Z 
+#'  else crossprod(Z %*% SqrtSigma)
 #'                 
 #'  }
-#'  if(Ident) crossprod(Z) 
-#'  else crossprod(Z) 
-#'  if(Ident) crossprod(Z) 
-#'  else crossprod(Z) 
+#'   
+#'   data.n10 <- rmultinorm(10, c(1,3), matrix(c(1.0,0.7,0.7,3.0),2,2))
+#'   rep.mat <- NULL; reps <- 1000
+#'   for (i in 1:reps){
+#'     rep.mat <- rbind(rep.mat, biv.norm.post(data.n10,3, matrix(c(10,5,5,10),2,2),c(2,2)))
+#'     round(normal.posterior.summary(rep.mat),3)
+#'   }
 #'  }
 #' @export
 biv.norm.post <- function(data.mat,alpha,beta,m,n0=5) {
@@ -53,9 +50,5 @@ biv.norm.post <- function(data.mat,alpha,beta,m,n0=5) {
     mu <- rmultinorm(1, (n0*m + n*xbar)/(n0+n), Sigma/(n0+n))
     return(c(mu1=mu[1],mu2=mu[2],sig1=Sigma[1,1], sig2=Sigma[2,2],rho=Sigma[2,1]))
 }
-
-
-
-
 
 
