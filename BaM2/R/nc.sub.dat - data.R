@@ -4,9 +4,9 @@
 #'
 #' The variables included in the dataset are:
 #' \itemize{
-#' \item\code{Substantiated.Abuse} Documented substantiated abuse cases within a county
-#' \item\code{Percent.Poverty} Percent within the county living in poverty as per the U.S. definition
-#' \item\code{Total.Population} (The total population observed)/1000
+#' \item\code{Substantiated.Abuse} within family documented abuse for the county 
+#' \item\code{Percent.Poverty} percent within the county living in poverty, U.S. definition
+#' \item\code{Total.Population} county population/1000
 #'  
 #'} 
 #' @usage nc.sub.dat
