@@ -1,10 +1,10 @@
 #' contracep
 #'
-#' Contraception Data by country. See page 416
+#' Contraception Data by country. See page 446
 #'
 #' The variables included in the dataset are:
 #' \itemize{
-#' \item\code{Country} 
+#' \item\code{Country} Developing countries by size
 #' \item\code{URC} 
 #' \item\code{WED} 
 #' \item\code{FPE}
