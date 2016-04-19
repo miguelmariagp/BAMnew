@@ -1,6 +1,6 @@
 #' texas
 #'
-#' @description THERE NEEDS TO BE A DESCRIPTION HERE
+#' @description Poverty in Texas
 #'
 #' The variables included in the dataset are:
 #' \itemize{
@@ -10,6 +10,6 @@
 #' \item\code{} 
 #'} 
 #' @usage data(texas)
-#' @name Texas
+#' @name texas
 #' @docType data
 NULL
