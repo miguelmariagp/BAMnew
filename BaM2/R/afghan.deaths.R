@@ -1,6 +1,6 @@
 #' afghan.deaths
 #'
-#' NATO fatalities in Afghanistan.  see page 365
+#' NATO fatalities in Afghanistan.  see page 350
 #'
 #' The variables included in the dataset are:
 #' \itemize{

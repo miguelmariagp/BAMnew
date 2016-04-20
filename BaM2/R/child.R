@@ -1,6 +1,6 @@
 #' child
 #'
-#' Child Support Collection Policies. See page 128
+#' Child Support Collection Policies from 50 states from 1982-1991. See page 166
 #'
 #' The variables included in the dataset are:
 #' \itemize{
@@ -15,6 +15,7 @@
 #'}
 #'
 #' @usage child
+#' @format observations of 8 variables for 50 states
 #' @source Meier, K.J. and Keisler, L.R. (1996). Public Administration as a Science of the Artificial: A Method for Prescription, Public Administration Review 56, 459-466.
 #' @name child
 #' @docType data
