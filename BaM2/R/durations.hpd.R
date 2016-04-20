@@ -2,14 +2,14 @@
 #'
 #' Simple HPD calculator from Chapter 2 (page 51).
 #' 
-#' @usage simple.hpd(support,fn.eval,start,stop,target=0.90,tol=0.01)
+#' @usage durations.hpd(support,fn.eval,start,stop,target=0.90,tol=0.01)
 #' 
 #' @param support x-axis values
-#' @param function values at x-axis points
-#' @param starting point in the vectors
-#' @param stoppng point in the vectors
-#' @param Desired X Level
-#' @param Tolerance for round-off
+#' @param fn.eval function values at x-axis points
+#' @param start starting point in the vectors
+#' @param stop stoppng point in the vectors
+#' @param target Desired X Level
+#' @param tol Tolerance for round-off
 #'
 #' @author Jeff Gill
 #' @examples
@@ -19,12 +19,12 @@
 #'   ruler <- seq(0.45,0.75,length=10000)
 #'   g.vals <- round(dgamma(ruler,shape=sum(N), rate=sum(N*dur)),2)
 #'   start.point  <- 1000; stop.point <- length(g.vals)
-#'   simple.hpd(ruler,g.vals,start.point,stop.point)
+#'   durations.hpd(ruler,g.vals,start.point,stop.point)
 #' }
 #' 
 #' ## End(Not run)
 #' @export
-simple.hpd <- function(support,fn.eval,start=1,stop=length(support),target=0.90,tol=0.01)  {
+durations.hpd <- function(support,fn.eval,start=1,stop=length(support),target=0.90,tol=0.01)  {
   done   <- FALSE; i <- start
   while (i < stop & done == FALSE)  {
     j <- length(fn.eval)/2
