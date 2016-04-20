@@ -1,6 +1,6 @@
 #' expo.metrop
 #'
-#' Simple Metropolis algorithm demonstration using a bivariate exponential target from Chapter 1 (pages 33-37).
+#' Simple Metropolis algorithm demonstration using a bivariate exponential target from Chapter 1 (pages 27-30).
 #' 
 #' @usage expo.metrop(m,x,y,L1,L2,L,B)
 #' 
@@ -15,10 +15,6 @@
 #' @author Jeff Gill
 #'
 #' @export
-biv.exp <- function(x,y,L1,L2,L) exp( -(L1+L)*x - (L2+L)*y -L*max(x,y) )
-
-cand.gen <- function(max.x,max.y) c(runif(1,0,max.x),runif(1,0,max.y))
-
 expo.metrop <- function(m=5000, x=0.5, y=0.5, L1=0.5, L2=0.1, L=0.01, B=8)  {
   for (i in 1:(m-1))  {
     cand.val <- cand.gen(B,B)
@@ -34,5 +30,9 @@ expo.metrop <- function(m=5000, x=0.5, y=0.5, L1=0.5, L2=0.1, L=0.01, B=8)  {
   }
   return(cbind(x,y))
 }
+
+biv.exp <- function(x,y,L1,L2,L) exp( -(L1+L)*x - (L2+L)*y -L*max(x,y) )
+
+cand.gen <- function(max.x,max.y) c(runif(1,0,max.x),runif(1,0,max.y))
 
 expo.metrop()

@@ -14,7 +14,7 @@ expo.gibbs(B,k,m)
 \item{m}{number of iterations}
 }
 \description{
-Simple Gibbs sampler demonstration on conditional exponentials from Chapter 1 (pages 30-33).
+Simple Gibbs sampler demonstration on conditional exponentials from Chapter 1 (pages 25-27).
 }
 \author{
 Jeff Gill

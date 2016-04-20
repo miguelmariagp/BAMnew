@@ -1,6 +1,6 @@
 #' expo.gibbs
 #'
-#' Simple Gibbs sampler demonstration on conditional exponentials from Chapter 1 (pages 30-33).
+#' Simple Gibbs sampler demonstration on conditional exponentials from Chapter 1 (pages 25-27).
 #' 
 #' @usage expo.gibbs(B,k,m)
 #' 
