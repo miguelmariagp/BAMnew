@@ -1,17 +1,17 @@
 #' dp
 #'
-#' Death Penalty Data, See Page 189.
+#' Death Penalty Data, See Page 142.
 #'
 #' The variables included in the dataset are:
 #' \itemize{
 #' \item\code{X} State
-#' \item\code{EXECUTIONS} 
-#' \item\code{INCOME} 
-#' \item\code{PERPOVERTY} 
-#' \item\code{PERBLACK} 
-#' \item\code{VC100k96} 
-#' \item\code{SOUTH} Southern State?
-#' \item\code{PROPDEGREE} 
+#' \item\code{EXECUTIONS} Number of capital punishments at state level in 1997
+#' \item\code{INCOME} Median per capita income in dollars
+#' \item\code{PERPOVERTY} Percent classified as living in poverty
+#' \item\code{PERBLACK} Percent of black citizens in population
+#' \item\code{VC100k96} Rate of violent crime per 100,000 residents for 1996
+#' \item\code{SOUTH} Is the state in the South?
+#' \item\code{PROPDEGREE} Proportion of population with college degree
 #'}
 #'
 #' @usage data(dp)
