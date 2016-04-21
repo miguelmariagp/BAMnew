@@ -3,7 +3,9 @@
 \docType{data}
 \name{baldus}
 \alias{baldus}
-\title{baldus}
+\alias{baldus.jags}
+\alias{baldus.winbugs}
+\title{Baldus Dataset}
 \source{
 Baldus, D. C., Pulaski, C., & Woodworth, G. (1983). Comparative review of death sentences: An empirical study of the Georgia experience. The Journal of Criminal Law and Criminology (1973-), 74(3), 661-753.
 }
