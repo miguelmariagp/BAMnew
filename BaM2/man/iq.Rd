@@ -11,7 +11,7 @@ Lynn, R. and Vanhanen, T. (2001). National IQ and Economic Development. Mankind 
 data(iq)
 }
 \description{
-IQ data for 80 countries. See pages 93-95
+IQ data for 80 countries. See pages 85-87
 }
 \examples{
 ## Not run: 

@@ -1,6 +1,6 @@
 #' @name iq
 #' @title iq data frame
-#' @description IQ data for 80 countries. See pages 93-95
+#' @description IQ data for 80 countries. See pages 85-87
 #' @usage data(iq)
 #' @source  Lynn, R. and Vanhanen, T. (2001). National IQ and Economic Development. Mankind Quarterly LXI, 415-437.
 #' @examples
