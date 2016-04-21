@@ -10,7 +10,7 @@ plot.walk.MH(walk.mat)
 \item{walk.mat}{}
 }
 \description{
-Plot.walk.MH code used to produce figure 9.2
+Plot.walk.MH code used to produce figure 10.4
 }
 \author{
 Jeff Gill

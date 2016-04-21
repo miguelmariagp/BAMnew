@@ -17,7 +17,7 @@
 \item{Y}{Y}
 }
 \description{
-Plot.walk.g code used to produce figure 10.4
+Plot.walk.g code used to produce figure 10.2
 }
 \author{
 Jeff Gill
