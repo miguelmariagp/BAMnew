@@ -21,7 +21,7 @@ t.ci.table(coefs,cov.mat,level=0.95,degrees=Inf,quantiles=c(0.025,0.500,0.975))
 quantile.mat	matrix of quantiles
 }
 \description{
-A function to calculate credible intervals and make a table.  See page 130.
+A function to calculate credible intervals and make a table.  See page 169.
 }
 \author{
 Jeff Gill

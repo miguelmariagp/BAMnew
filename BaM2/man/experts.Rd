@@ -15,6 +15,6 @@ experts(q1,q2,q3)
 \item{q3}{the 0.9 quantile}
 }
 \description{
-Fabricated data on campaign fundraising elicitations. See page 164
+Fabricated data on campaign fundraising elicitations. See page 120
 }
 

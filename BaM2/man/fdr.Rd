@@ -8,6 +8,6 @@
 data(fdr)
 }
 \description{
-FDR election data. See page 562
+FDR election data. See page 576
 }
 

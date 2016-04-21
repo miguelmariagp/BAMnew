@@ -14,7 +14,7 @@ metropolis(theta.matrix,reps,I.mat)
 \item{I.mat}{I.mat}
 }
 \description{
-Implementation of metropolis function, p. 375.
+Implementation of metropolis function, p. 359.
 }
 \author{
 Jeff Gill
