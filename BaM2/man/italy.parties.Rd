@@ -8,6 +8,6 @@
 data(italy.parties)
 }
 \description{
-Italian Parties Data. See page 389
+Italian Parties Data. See page 370
 }
 
