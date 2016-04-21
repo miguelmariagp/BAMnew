@@ -8,7 +8,7 @@
 data(strikes)
 }
 \description{
-THIS NEEDS TO BE FILLED IN
+French Coal Strikes, see page 212 and 213
 
 The variables included in the dataset are:
 \itemize{

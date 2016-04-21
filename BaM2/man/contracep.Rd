@@ -11,12 +11,12 @@ Wong, G. Y. and Mason, W. M. (1985).	The Hierarchical Logistic Regression Model 
 data(contracep)
 }
 \description{
-Contraception Data by country. See page 416
+Contraception Data by country. See page 446
 }
 \details{
 The variables included in the dataset are:
 \itemize{
-\item\code{Country} 
+\item\code{Country} Developing countries by size
 \item\code{URC} 
 \item\code{WED} 
 \item\code{FPE}
