@@ -1,6 +1,6 @@
 #' @name hanjack
 #' @title hanjack
-#' @description 1964 presidential election data. See page 245
+#' @description 1964 presidential election data. See page 221
 #' @usage hanjack(N,F,L,W,K,IND,DEM,WR,WD,SD)
 #' @param N number of cases in the group
 #' @param F Observed cell proportion voting for Johnson

@@ -29,7 +29,7 @@ hanjack(N,F,L,W,K,IND,DEM,WR,WD,SD)
 \item{SD}{Strong Democrat}
 }
 \description{
-1964 presidential election data. See page 245
+1964 presidential election data. See page 221
 }
 \references{
 Hanushek, E. A. and Jackson, J. E. (1977). Statistical Methods for Social Scientists San Diego, Academic Press
