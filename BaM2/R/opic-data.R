@@ -1,6 +1,6 @@
 #' opic
 #'
-#' @description private capital investment data. See Page 390.
+#' @description private capital investment data. See Page 372.
 #'
 #' The variables included in the dataset are:
 #' \itemize{
