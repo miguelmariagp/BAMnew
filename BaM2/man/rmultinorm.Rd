@@ -7,13 +7,13 @@
 rmultinorm(n, mu, vmat, tol = 1e-07)
 }
 \arguments{
-\item{n}{XXX}
+\item{n}{nu}
 
-\item{mu}{XXX}
+\item{mu}{vector of mean}
 
-\item{vmat}{XXX}
+\item{vmat}{variance-covariance matriz}
 
-\item{tol}{XXX}
+\item{tol}{tolerance}
 }
 \description{
 a function to generate random multivariate Gaussians.
