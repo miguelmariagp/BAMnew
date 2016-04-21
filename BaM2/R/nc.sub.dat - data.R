@@ -1,6 +1,6 @@
 #' nc.sub.dat
 #'
-#' @description North Carolina county level health data from the 2000 U.S. census and North Carolina public records.
+#' @description North Carolina county level health data from the 2000 U.S. census and North Carolina public records, see page 78.
 #'
 #' The variables included in the dataset are:
 #' \itemize{

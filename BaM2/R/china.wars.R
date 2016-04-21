@@ -1,6 +1,6 @@
 #' china.wars
 #'
-#' Modeling code for the example of ancient Chinese wars. See page 125-127
+#' Modeling code for the example of ancient Chinese wars. See page 163-165
 #' 
 #' @author Jeff Gill
 #' @source Claudio Cioffi-Revilla and David Lai, 2001, \cr

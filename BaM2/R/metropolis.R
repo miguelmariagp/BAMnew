@@ -1,6 +1,6 @@
 #' metropolis
 #'
-#' Implementation of metropolis function, p. 375.
+#' Implementation of metropolis function, p. 359.
 #' 
 #' @usage metropolis(theta.matrix,reps,I.mat)
 #' 

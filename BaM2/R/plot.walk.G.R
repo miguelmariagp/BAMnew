@@ -1,6 +1,6 @@
 #' plot.walk.G
 #'
-#' Plot.walk.g code used to produce figure 10.4
+#' Plot.walk.g code used to produce figure 10.2
 #' 
 #' @usage ## S3 method for class 'G'  
 #'    plot.walk.G(walk.mat,sim.rm,X=1,Y=2)

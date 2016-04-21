@@ -1,6 +1,6 @@
 #' afghan.deaths
 #'
-#' NATO fatalities in Afghanistan.  see page 350
+#' NATO Fatalities in Afghanistan, 10/01 to 1/07.  see page 350
 #'
 #' The variables included in the dataset are:
 #' \itemize{
@@ -10,6 +10,7 @@
 #'}
 #'
 #' @usage data(afghan.deaths)
+#' @format 52 monthly periods, listed by rows
 #' @name afghan.deaths
 #' @docType data
 NULL

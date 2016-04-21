@@ -4,10 +4,10 @@
 #' 
 #' @usage rmultinorm(n, mu, vmat, tol = 1e-07)
 #' 
-#' @param n XXX
-#' @param mu XXX
-#' @param vmat XXX
-#' @param tol XXX
+#' @param n nu
+#' @param mu vector of mean
+#' @param vmat variance-covariance matriz
+#' @param tol tolerance
 #' 
 #' @author Jeff Gill
 #'
