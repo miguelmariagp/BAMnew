@@ -8,14 +8,19 @@ normal.posterior.summary(reps)
 }
 \arguments{
 \item{reps}{a matrix where the columns are defined as in the output of biv.norm.post:
-mu1             posterior mean, dimension 1
-mu2             posterior mean, dimension 2 
-sig1            posterior variance, dimension 1
-sig2            posterior variance, dimension 2
-rho             posterior covariance}
+
+             mu1             posterior mean, dimension 1
+             
+             mu2             posterior mean, dimension 2 
+             
+             sig1            posterior variance, dimension 1
+             
+             sig2            posterior variance, dimension 2
+             
+             rho             posterior covariance}
 }
 \description{
-A function to calculate posterior quantities of bivariate normals.  See pages 79-86.
+A function to calculate posterior quantities of bivariate normals.  See pages 74-80.
 }
 \author{
 Jeff Gill

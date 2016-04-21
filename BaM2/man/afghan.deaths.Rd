@@ -8,7 +8,7 @@
 data(afghan.deaths)
 }
 \description{
-NATO fatalities in Afghanistan.  see page 365
+NATO fatalities in Afghanistan.  see page 350
 }
 \details{
 The variables included in the dataset are:

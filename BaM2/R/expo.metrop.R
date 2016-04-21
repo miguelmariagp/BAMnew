@@ -13,6 +13,9 @@
 #' @param B upper bound
 #'
 #' @author Jeff Gill
+#' @examples
+#' 
+#' expo.metro(m=5000, x=0.5, y=0.5, L1=0.5, L2=0.1, L=0.01, B=8)
 #'
 #' @export
 expo.metrop <- function(m=5000, x=0.5, y=0.5, L1=0.5, L2=0.1, L=0.01, B=8)  {
@@ -31,8 +34,8 @@ expo.metrop <- function(m=5000, x=0.5, y=0.5, L1=0.5, L2=0.1, L=0.01, B=8)  {
   return(cbind(x,y))
 }
 
+#' @export
 biv.exp <- function(x,y,L1,L2,L) exp( -(L1+L)*x - (L2+L)*y -L*max(x,y) )
 
+#' @export
 cand.gen <- function(max.x,max.y) c(runif(1,0,max.x),runif(1,0,max.y))
-
-expo.metrop()

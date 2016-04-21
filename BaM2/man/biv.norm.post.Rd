@@ -29,8 +29,6 @@ A function to calculate posterior quantities of the bivariate normal.  See page 
 }
 \examples{
 
-## Not run: 	    
-{
  rwishart <- function(df, p = nrow(SqrtSigma), SqrtSigma = diag(p))  { 
  if((Ident <- missing(SqrtSigma)) && missing(p)) stop("either p or SqrtSigma must be specified") 
  Z <- matrix(0, p, p) 
@@ -48,9 +46,9 @@ A function to calculate posterior quantities of the bivariate normal.  See page 
   rep.mat <- NULL; reps <- 1000
   for (i in 1:reps){
     rep.mat <- rbind(rep.mat, biv.norm.post(data.n10,3, matrix(c(10,5,5,10),2,2),c(2,2)))
-    round(normal.posterior.summary(rep.mat),3)
   }
- }
+    round(normal.posterior.summary(rep.mat),3)
+    
 }
 \author{
 Jeff Gill

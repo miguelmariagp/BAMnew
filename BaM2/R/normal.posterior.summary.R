@@ -1,14 +1,19 @@
 #' normal posterior summary
 #'
-#' A function to calculate posterior quantities of bivariate normals.  See pages 79-86.
-#' 
+#' A function to calculate posterior quantities of bivariate normals.  See pages 74-80.
+#'
 #' @usage normal.posterior.summary(reps)
 #' 
 #' @param reps		a matrix where the columns are defined as in the output of biv.norm.post:
+#' 
 #'              mu1             posterior mean, dimension 1
+#'              
 #'              mu2             posterior mean, dimension 2 
+#'              
 #'              sig1            posterior variance, dimension 1
+#'              
 #'              sig2            posterior variance, dimension 2
+#'              
 #'              rho             posterior covariance
 #'
 #' @author Jeff Gill
@@ -22,3 +27,4 @@ normal.posterior.summary <- function(reps)  {
                    "95% HPD Lower"=reps[25,], "95% HPD Upper"=reps[975,])
   return(out.mat)
 }
+

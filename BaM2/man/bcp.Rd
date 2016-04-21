@@ -19,12 +19,8 @@ bcp(theta.matrix, y, a, b, g, d)
 
 \item{d}{Delta Value in the phi Prior}
 }
-\value{
-Something
- \item{squares}{XXX}
-}
 \description{
-Implementation of bcp function, see pages 362-363
+Implementation of bcp function, see pages 362-363 (2nd Edition).
 }
 \examples{
 

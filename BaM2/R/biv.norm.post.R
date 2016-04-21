@@ -18,8 +18,6 @@
 #' @author Jeff Gill
 #' @examples
 #' 
-#' ## Not run: 	    
-#' {
 #'  rwishart <- function(df, p = nrow(SqrtSigma), SqrtSigma = diag(p))  { 
 #'  if((Ident <- missing(SqrtSigma)) && missing(p)) stop("either p or SqrtSigma must be specified") 
 #'  Z <- matrix(0, p, p) 
@@ -37,9 +35,9 @@
 #'   rep.mat <- NULL; reps <- 1000
 #'   for (i in 1:reps){
 #'     rep.mat <- rbind(rep.mat, biv.norm.post(data.n10,3, matrix(c(10,5,5,10),2,2),c(2,2)))
-#'     round(normal.posterior.summary(rep.mat),3)
 #'   }
-#'  }
+#'     round(normal.posterior.summary(rep.mat),3)
+#'     
 #' @export
 biv.norm.post <- function(data.mat,alpha,beta,m,n0=5) {
     n <- nrow(data.mat)
@@ -50,5 +48,3 @@ biv.norm.post <- function(data.mat,alpha,beta,m,n0=5) {
     mu <- rmultinorm(1, (n0*m + n*xbar)/(n0+n), Sigma/(n0+n))
     return(c(mu1=mu[1],mu2=mu[2],sig1=Sigma[1,1], sig2=Sigma[2,2],rho=Sigma[2,1]))
 }
-
-

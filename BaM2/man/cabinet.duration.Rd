@@ -4,17 +4,18 @@
 \name{cabinet.duration}
 \alias{cabinet.duration}
 \title{cabinet.duration}
+\format{cabinet duration of 11 countries}
 \usage{
 cabinet.duration
 }
 \description{
-Cabinet duration (constitutional inter-election period) for eleven Western European countries from 1945 to 1980.
+Cabinet duration (constitutional inter-election period) for eleven Western European countries from 1945 to 1980, page 65
 }
 \details{
 The variables included in the dataset are:
 \itemize{
-\item\code{N} 
-\item\code{dur} 
+\item\code{N} number of cabinets
+\item\code{dur} average length of duration
 }
 }
 \note{

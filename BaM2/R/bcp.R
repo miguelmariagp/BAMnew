@@ -1,6 +1,6 @@
 #' bcp
 #'
-#' Implementation of bcp function, see pages 362-363
+#' Implementation of bcp function, see pages 362-363 (2nd Edition).
 #'
 #' @param theta.matrix theta.matrix
 #' @param y Counts of Coal Mining Disasters
@@ -9,8 +9,6 @@
 #' @param g Gamma Value in the phi Prior
 #' @param d Delta Value in the phi Prior
 #'
-#' @return Something
-#'  \item{squares}{XXX}
 #' @author Jeff Gill
 #' @examples
 #' 

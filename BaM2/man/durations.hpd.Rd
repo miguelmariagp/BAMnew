@@ -20,19 +20,15 @@ durations.hpd(support,fn.eval,start,stop,target=0.90,tol=0.01)
 \item{tol}{Tolerance for round-off}
 }
 \description{
-Simple HPD calculator from Chapter 2 (page 51).
+Simple HPD calculator from Chapter 2 (page 51, 2nd Edition).
 }
 \examples{
-## Not run: 
-{
   data(cabinet.duration)
   ruler <- seq(0.45,0.75,length=10000)
-  g.vals <- round(dgamma(ruler,shape=sum(N), rate=sum(N*dur)),2)
+  g.vals <- round(dgamma(ruler,shape=sum(cabinet.duration$N), rate=sum(cabinet.duration$N*cabinet.duration$dur)),2)
   start.point  <- 1000; stop.point <- length(g.vals)
   durations.hpd(ruler,g.vals,start.point,stop.point)
-}
 
-## End(Not run)
 }
 \author{
 Jeff Gill
