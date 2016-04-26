@@ -12,6 +12,6 @@
 #' @usage data(terrorism)
 #' @format data frame with 14 observations of death rates for different years with 5 explanatory variables
 #' @source Falkenrath, R. (2001). Analytical Models and Policy Prescription: Understanding Recent Innovation in U.S. Counterterrorism. Studies in Conflict and Terrorism 24, 159-181.
-#' @name Terrorism Comparisons Using Statistics
+#' @name terrorism
 #' @docType data
 NULL

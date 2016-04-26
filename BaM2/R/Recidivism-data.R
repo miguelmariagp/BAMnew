@@ -10,7 +10,7 @@
 #' \item\code{Percentage} (The number of individuals returned to a facility)/(The number of individuals released from a facility)
 #'} 
 #' @usage data(recidivism)
-#' @name Recidivism statistics
+#' @name recidivism
 #' @format data frame with 27 observations of different crime types with 5 explanatory variables
 #' @source state-level recidivism data as collected by the Oklahoma Department of Corrections from January 1, 1985 to June 30, 1999
 #' @docType data

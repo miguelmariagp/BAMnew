@@ -5,7 +5,7 @@
 \alias{asap.data.list}
 \title{asap.data.list}
 \usage{
-asap.data.list
+data(asap.data.list)
 }
 \description{
 The American State Administrator's Project (ASAP) survey asks administrators about the influence of a variety of external political actors including "clientele groups" in their agencies., see page 395.

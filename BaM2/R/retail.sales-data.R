@@ -15,6 +15,6 @@
 #' @usage data(retail.sales)
 #' @format data frame with 44 observations of statistics for different economic quarters with 7 explanatory variables
 #' @source U.S. Department of Commerce data from first quarter of 1979 to fourth quarter of 1989
-#' @name Retail Sales
+#' @name retail.sales
 #' @docType data
 NULL
