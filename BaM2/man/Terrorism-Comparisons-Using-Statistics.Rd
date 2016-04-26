@@ -4,11 +4,15 @@
 \name{Terrorism Comparisons Using Statistics}
 \alias{Terrorism Comparisons Using Statistics}
 \title{terrorism}
+\format{data frame with 14 observations of death rates for different years with 5 explanatory variables}
+\source{
+Falkenrath, R. (2001). Analytical Models and Policy Prescription: Understanding Recent Innovation in U.S. Counterterrorism. Studies in Conflict and Terrorism 24, 159-181.
+}
 \usage{
 data(terrorism)
 }
 \description{
-Dataset comparing incidents of terrorism to car accidents, suicide, and murder
+Dataset comparing incidents of terrorism to car accidents, suicide, and murder, see page 140
 
 The variables included in the dataset are:
 \itemize{

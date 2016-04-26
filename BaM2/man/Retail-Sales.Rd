@@ -4,11 +4,15 @@
 \name{Retail Sales}
 \alias{Retail Sales}
 \title{retail.sales}
+\format{data frame with 44 observations of statistics for different economic quarters with 7 explanatory variables}
+\source{
+U.S. Department of Commerce data from first quarter of 1979 to fourth quarter of 1989
+}
 \usage{
 data(retail.sales)
 }
 \description{
-Retail sales from 1979 through 1989 based on data provided by the U.S. Department of Commerce through the Survey of Current Business
+Retail sales from 1979 through 1989 based on data provided by the U.S. Department of Commerce through the Survey of Current Business, see page 439
 
 The variables included in the dataset are:
 \itemize{
