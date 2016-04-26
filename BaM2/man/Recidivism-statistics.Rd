@@ -4,11 +4,15 @@
 \name{Recidivism statistics}
 \alias{Recidivism statistics}
 \title{recidivism}
+\format{data frame with 27 observations of different crime types with 5 explanatory variables}
+\source{
+state-level recidivism data as collected by the Oklahoma Department of Corrections from January 1, 1985 to June 30, 1999
+}
 \usage{
 data(recidivism)
 }
 \description{
-Recidivism Rates. See page 207
+Recidivism Rates. See page 188
 
 The variables included in the dataset are:
 \itemize{

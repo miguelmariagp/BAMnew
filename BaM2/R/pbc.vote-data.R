@@ -1,6 +1,6 @@
 #' pbc.vote
 #'
-#' @description Precinct level data for Palm Beach County, Florida from the 2000 U.S. Presidential Election
+#' @description Precinct level data for Palm Beach County, Florida from the 2000 U.S. Presidential Election, see page 149
 #'
 #' The variables included in the dataset are:
 #' \itemize{
@@ -17,6 +17,8 @@
 #' \item\code{new} The number of voters registered to vote after June 30, 2000 in a given precinct
 #'} 
 #' @usage data(pbc.vote)
+#' @format data frame with 516 observations of each precinct in Palm Beach County with 11 explanatory variables
+#' @source Palm Beach Post collected data from state and federal sources about precinct level data in Palm Beach County for the 2000 US presidential election
 #' @name pbc.vote
 #' @docType data
 NULL

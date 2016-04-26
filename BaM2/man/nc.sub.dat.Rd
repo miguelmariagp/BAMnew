@@ -4,6 +4,10 @@
 \name{nc.sub.dat}
 \alias{nc.sub.dat}
 \title{nc.sub.dat}
+\format{data frame with 100 observations of different counties in North Carolina with 3 explanatory variables}
+\source{
+data from 2000 US census and North Carolina Division of Public Health, Women's and Children's Health Section in Conjunction with State Center for Health Statistics
+}
 \usage{
 nc.sub.dat
 }
