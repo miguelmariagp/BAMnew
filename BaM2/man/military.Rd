@@ -4,11 +4,15 @@
 \name{military}
 \alias{military}
 \title{military}
+\format{a data frame with 35 observations of years from 1949 to 1983 with 10 explanatory variables}
+\source{
+Faber, J. (1989). Annual Data on Nine Economic and Military Characteristics of 78 Nations (SIRE NATDAT), 1948-1983. Ann Arbor: Inter-University Consortium for Political and Social Research and Amsterdam, and Amsterdam, the Netherlands: Europa Institute, Steinmetz Archive.
+}
 \usage{
 data(military)
 }
 \description{
-A dataset of two variables. The proportional changes in military personnel for the named countries. See pages 79-86
+A dataset of two variables. The proportional changes in military personnel for the named countries. See page 483-484
 
 The variables included in the dataset are:
 \itemize{
