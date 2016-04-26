@@ -4,10 +4,14 @@
 \name{marriage.rates}
 \alias{marriage.rates}
 \title{Marriage Rates in Italy}
+\format{a vector containing 15 numbers}
+\source{
+Columbo, B. (1952). Preliminary Analysis of Recent Demographic Trends in Italy. Population Index 18, 265-279.
+}
 \usage{
 data(marriage.rates)
 }
 \description{
-Italian Marriage Rates. See page 409
+Italian Marriage Rates. See page 430
 }
 
