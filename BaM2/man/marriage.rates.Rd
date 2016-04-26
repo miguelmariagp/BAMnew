@@ -4,11 +4,7 @@
 \name{marriage.rates}
 \alias{marriage.rates}
 \title{Marriage Rates in Italy}
-<<<<<<< Updated upstream
 \format{a vector containing 16 numbers}
-=======
-\format{a vector containing 15 numbers}
->>>>>>> Stashed changes
 \source{
 Columbo, B. (1952). Preliminary Analysis of Recent Demographic Trends in Italy. Population Index 18, 265-279.
 }

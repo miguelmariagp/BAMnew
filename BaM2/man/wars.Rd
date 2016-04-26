@@ -16,19 +16,11 @@ Data for Chinese wars example, see page 163
 
 The variables included in the dataset are:
 \itemize{
-<<<<<<< Updated upstream
-\item\code{ONSET} 
-\item\code{TERM} 
-\item\code{EXTENT} number of belligerents
-\item\code{ETHNIC} intra-group or inter-group
-\item\code{DIVERSE} number of ethnic groups participating as belligerents 
-=======
 \item\code{ONSET}
 \item\code{TERM}
 \item\code{EXTENT} number of belligerents
 \item\code{ETHNIC} intra-group or inter-group
 \item\code{DIVERSE} number of ethnic groups participating as belligerents
->>>>>>> Stashed changes
 \item\code{ALLIANCE} total number of alliances among belligerents
 \item\code{DYADS} number of alliance pairs
 \item\code{POL.LEV}
@@ -36,11 +28,7 @@ The variables included in the dataset are:
 \item\code{POLAR} number of relatively major or great powers at the time of onset
 \item\code{BALANCE} the difference in military capabilities: minor-minor, minor-major, major-major
 \item\code{TEMPOR} type of war: protracted rivalry, integrative conquest, disintegrative/fracturing conflict, sporadic event
-<<<<<<< Updated upstream
-\item\code{SCOPE} 
-=======
 \item\code{SCOPE}
->>>>>>> Stashed changes
 \item\code{DURATION} duration of conflict, measured in years
 }
 }
