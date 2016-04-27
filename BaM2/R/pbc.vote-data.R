@@ -4,17 +4,12 @@
 #'
 #' The variables included in the dataset are:
 #' \itemize{
-#' \item\code{avgage} Average age of precinct voters
-#' \item\code{technology} Voting Technology used
-#' \item\code{badballots} Combined overvotes and undervotes
-#' \item\code{size} Total ballots cast
-#' \item\code{Republican} The number of Republican voters in a given precinct
-#' \item\code{npa} The number of voters with no party affiliation in a given precinct
-#' \item\code{white} The number of white voters in a given precinct
-#' \item\code{bla} The number of black voters in a given precinct
-#' \item\code{his} The number of hispanic voters in a given precinct
-#' \item\code{int} The number of Independent voters in a given precinct
-#' \item\code{new} The number of voters registered to vote after June 30, 2000 in a given precinct
+#' \item\code{badballots} Total number of spoiled ballots
+#' \item\code{technology} Voting Technology used, 0 for a datapunch machine or a butterfly ballot, 1 for votomatic
+#' \item\code{new} Number of "new" voters, as in those who have not voted in the precinct for previous 6 years
+#' \item\code{size} Total number of precinct voters
+#' \item\code{Republican} The number of voters registered as Republican
+#' \item\code{white} The number of white nonminority voters in a given precinct
 #'} 
 #' @usage data(pbc.vote)
 #' @format data frame with 516 observations of each precinct in Palm Beach County with 11 explanatory variables
