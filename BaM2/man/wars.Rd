@@ -16,19 +16,19 @@ Data for Chinese wars example, see page 163
 
 The variables included in the dataset are:
 \itemize{
-\item\code{ONSET} 
-\item\code{TERM} 
-\item\code{EXTENT} number of belligerents
-\item\code{ETHNIC} intra-group or inter-group
+\item\code{ONSET} ratio-level variable measuring the epochal - whether historical or calendar - time of event occurrence, measured in calendar year
+\item\code{TERM} ratio-level variable measuring the epochal - historical - time of event conclusion, measured in calendar year
+\item\code{EXTENT} number of belligerents involved on all sides of the war
+\item\code{ETHNIC} intra-group or inter-group conflict
 \item\code{DIVERSE} number of ethnic groups participating as belligerents 
 \item\code{ALLIANCE} total number of alliances among belligerents
 \item\code{DYADS} number of alliance pairs
-\item\code{POL.LEV}
-\item\code{COMPLEX}
+\item\code{POL.LEV} nominal-level variable measuring the political level of belligerent involvement regarding domestic and foreign belligerents, with a 1 for internal war, 2 for interstate war
+\item\code{COMPLEX} governmental level of the warring parties, where the first variable is multiplied by ten for scale purposes
 \item\code{POLAR} number of relatively major or great powers at the time of onset
 \item\code{BALANCE} the difference in military capabilities: minor-minor, minor-major, major-major
 \item\code{TEMPOR} type of war: protracted rivalry, integrative conquest, disintegrative/fracturing conflict, sporadic event
-\item\code{SCOPE} 
+\item\code{SCOPE} political scope of conflicts in terms of governmental units affected
 \item\code{DURATION} duration of conflict, measured in years
 }
 }
