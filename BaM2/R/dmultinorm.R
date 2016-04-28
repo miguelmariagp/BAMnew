@@ -1,6 +1,6 @@
 #' dmultinorm
 #'
-#' dmultinorm function, see page 393.
+#' dmultinorm function, see page 376.
 #' 
 #' @usage dmultinorm(xval,yval,mu.vector,sigma.matrix)
 #' 
