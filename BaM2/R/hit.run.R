@@ -1,6 +1,6 @@
 #' hit.run
 #'
-#' Implementation of hit.run algorithm, p. 377.
+#' Implementation of hit.run algorithm, p. 361.
 #' 
 #' @usage hit.run(theta.mat,reps,I.mat)
 #' 
@@ -12,7 +12,7 @@
 #' @examples
 #'
 #' ## Not run: 
-#' #code to implement graph on p. 378, see page 393.
+#' #code to implement graph on p. 362, see page 376.
 #' 
 #' num.sims <- 10000
 #' Sig.mat <- matrix(c(1.0,0.95,0.95,1.0),2,2)

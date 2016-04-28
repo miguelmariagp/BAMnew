@@ -1,6 +1,6 @@
 #' sir
 #'
-#' Implementation of Rubin's SIR
+#' Implementation of Rubin's SIR, see pages 338-341 (2nd Edition)
 #' 
 #' @usage sir(data.mat,theta.vector,theta.mat,M,m,tol=1e-06,ll.func,df=0)
 #' 

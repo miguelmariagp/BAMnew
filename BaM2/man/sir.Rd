@@ -24,7 +24,7 @@ sir(data.mat,theta.vector,theta.mat,M,m,tol=1e-06,ll.func,df=0)
 \item{df}{The df for using the t distribution as the approx distribution}
 }
 \description{
-Implementation of Rubin's SIR
+Implementation of Rubin's SIR, see pages 338-341 (2nd Edition)
 }
 \examples{
 ## Not run: 
