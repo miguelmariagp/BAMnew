@@ -16,7 +16,7 @@ dmultinorm(xval,yval,mu.vector,sigma.matrix)
 \item{sigma.matrix}{Matrix of Standard Deviations}
 }
 \description{
-dmultinorm function, see page 393.
+dmultinorm function, see page 376.
 }
 \author{
 Jeff Gill
