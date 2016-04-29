@@ -22,5 +22,3 @@ library(BaM2)
 ?dmultinorm
 ?actuarial
 ?expo.gib
-
-
