@@ -16,8 +16,8 @@ Data for Chinese wars example, see page 163
 
 The variables included in the dataset are:
 \itemize{
-\item\code{ONSET} ratio-level variable measuring the epochal - whether historical or calendar - time of event occurrence, measured in calendar year
-\item\code{TERM} ratio-level variable measuring the epochal - historical - time of event conclusion, measured in calendar year
+\item\code{ONSET} ratio-level variable measuring the epochal (whether historical or calendar) time of event occurrence, measured in calendar year
+\item\code{TERM} ratio-level variable measuring the epochal (historical) time of event conclusion, measured in calendar year
 \item\code{EXTENT} number of belligerents involved on all sides of the war
 \item\code{ETHNIC} intra-group or inter-group conflict
 \item\code{DIVERSE} number of ethnic groups participating as belligerents 
